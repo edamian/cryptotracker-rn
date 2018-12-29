@@ -1,10 +1,10 @@
 import React from 'react';
 import {View, Text, StyleSheet } from 'react-native';
 
-const Header = () => {
+const Header = ( props ) => {
     return (
         <View style={headerContainer}>
-            <Text style={header}>Cryptocurrency App</Text>
+            <Text style={header}>{props.customTitle}</Text>
         </View>
     )
 }
