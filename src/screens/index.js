@@ -1,7 +1,7 @@
-import HomeScreen from './HomeScreen';
+import CryptoScreen from './CryptoScreen';
 import AuthorScreen from './AuthorScreen';
 
 export {
-    HomeScreen,
+    CryptoScreen,
     AuthorScreen
 }

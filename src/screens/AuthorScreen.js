@@ -6,7 +6,7 @@ class AuthorScreen extends Component {
 
     static navigationOptions= {
         drawerLabel: 'Author Info'
-    }
+    };
 
     render() {
         return (
