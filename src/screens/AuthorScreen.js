@@ -5,6 +5,7 @@ import { Author } from './../components';
 class AuthorScreen extends Component {
 
     static navigationOptions= {
+        title: 'Author Info',
         drawerLabel: 'Author Info'
     };
 

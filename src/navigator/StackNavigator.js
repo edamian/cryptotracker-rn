@@ -19,6 +19,12 @@ const RootStack = createStackNavigator(
                     </View>
             })
         }
+    },
+    {
+        initialRoute: 'Drawer',
+        navigationOptions: ({ navigation }) => ({
+            title: navigation.state.routeName,
+        })
     }
 );
 
