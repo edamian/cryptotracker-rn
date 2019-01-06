@@ -15,11 +15,17 @@ const Author = () => {
                     <Text>erickdlp95@gmail.com</Text>
                 </View>
                 <View style={textContainer}>
-                    <Text style={label}>Github</Text>
+                    <Text style={label}>Platzi</Text>
+                    <Hyperlink linkStyle={{ color: "#2980b9" }}>
+                        <Text>https://platzi.com/@edamian_/</Text>
+                    </Hyperlink>
+                </View>
+                <View style={textContainer}>
+                    <Text style={label}>Codigo</Text>
                     <Hyperlink linkStyle={ {
                         color: "#2980b9",
                     }}>
-                        <Text>https://github.com/edamian</Text>
+                        <Text>https://github.com/edamian/cryptotracker-rn</Text>
                     </Hyperlink>
                 </View>
             </View>
